@@ -11,3 +11,5 @@ Images: public project interface screenshots (LAHEMATIX, DigitalMirror, DigiProf
 Outstanding: detailed LAHEMATIX implementation contribution; approved VÕPA screenshots/public URL; LePlanner interface screenshot; substantive Estonian content; separately authored downloadable CV PDF. These are not fabricated in the prototype.
 
 Design references: https://saguileran.github.io/ and https://mayankm96.github.io/. Custom presentation is confined to portfolio.liquid, case-study.liquid, portfolio-bib.liquid, work-card.liquid, portfolio.css and portfolio.js. Jekyll Scholar renders structured BibTeX; project content uses the al-folio projects collection. Local layouts have unique names and do not replace core layouts.
+
+Link review: the Google Scholar URL linked by ETIS returned 404 in both HTTP and browser checks, so the public link is omitted pending a working profile URL. LePlanner repository is private; public repository buttons have been removed. LinkedIn rejects automated checks (999), but the profile URL is verified from Mart’s university-hosted homepage.

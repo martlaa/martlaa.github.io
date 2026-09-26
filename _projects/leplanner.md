@@ -6,7 +6,6 @@ order: 6
 description: "Visualising, sharing and analysing lesson plans in teacher education."
 status: "Design and development"
 context: "Teacher education · learning design"
-website: "https://github.com/martlaa/leplanner"
 visual_note: "Learning design · lesson planning"
 layout: "case-study"
 case_study: true
@@ -22,4 +21,4 @@ LePlanner is an online tool for visualising, sharing and analysing lesson plans 
 
 This work connects [learning design]({{ '/research/#learning-design' | relative_url }}) with [teacher education]({{ '/teaching/' | relative_url }}): helping teachers make, communicate and reconsider educational design decisions.
 
-[Project repository](https://github.com/martlaa/leplanner)
+The development repository is private. [Discuss the project](mailto:mart.laanpere@tlu.ee) for research or collaboration enquiries.

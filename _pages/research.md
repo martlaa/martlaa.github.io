@@ -1,0 +1,13 @@
+---
+layout: "portfolio"
+title: "Research"
+description: "Four connected areas, with educational design as the bridge between questions and practice."
+permalink: "/research/"
+lang: "en"
+---
+
+<div class="research-sections">
+<section id="mathematics"><p class="eyebrow">01 / Research area</p><h2>Mathematics Education</h2><p>Mathematical problem solving, mathematical thinking, teacher education, technology-enhanced mathematics and the relationship between mathematical and computational thinking.</p><p class="connection"><a href="{{ '/work/lahematix/' | relative_url }}">LAHEMATIX</a> → classroom inquiry<br><a href="{{ '/work/mathearena-estonia/' | relative_url }}">MatheArena Estonia</a> → curriculum-sensitive EdTech</p><a href="{{ '/publications/?topic=Mathematics' | relative_url }}">Related publications →</a></section>
+<section id="computing"><p class="eyebrow">02 / Research area</p><h2>Computing Education</h2><p>School informatics, computational thinking, computing teacher education and curriculum. Current questions also include AI education and how learners develop an understanding of emerging technologies.</p><p class="connection">Curriculum research → <a href="{{ '/teaching/' | relative_url }}">computing teacher education</a> → classroom practice</p><a href="{{ '/publications/?topic=Computing' | relative_url }}">Related publications →</a></section>
+<section id="digital-competence"><p class="eyebrow">03 / Research area</p><h2>Digital Competence & Educational Transformation</h2><p>Digital competence assessment, DigComp and DigCompEdu, organisational digital maturity and education policy. I investigate how frameworks and evidence can support meaningful change in educational organisations.</p><p class="connection"><a href="{{ '/work/digitalmirror/' | relative_url }}">DigitalMirror</a> → organisational reflection<br><a href="{{ '/work/digiprof/' | relative_url }}">DigiProf</a> → teacher professional development</p><a href="{{ '/publications/?topic=Digital Competence' | relative_url }}">Related publications →</a></section>
+<section id="learning-design"><p class="eyebrow">04 / Research area</p><h2>AI, Learning Design & EdTech</h2><p>Learning design, AI-supported teaching and learning, educational innovation and design-based research. The focus is on making educational intentions explicit, testing designs in practice and using evidence to improve them.</p><p class="connection"><a href="{{ '/work/leplanner/' | relative_url }}">LePlanner</a> → visual learning design<br><a href="{{ '/work/diffusiongame/' | relative_url }}">DiffusionGame</a> → simulation and reflection</p><a href="{{ '/publications/?topic=AI' | relative_url }}">Related publications →</a></section></div>

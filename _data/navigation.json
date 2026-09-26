@@ -1,0 +1,62 @@
+{
+  "en": [
+    {
+      "title": "Work",
+      "url": "/work/"
+    },
+    {
+      "title": "Research",
+      "url": "/research/"
+    },
+    {
+      "title": "Publications",
+      "url": "/publications/"
+    },
+    {
+      "title": "Teaching",
+      "url": "/teaching/"
+    },
+    {
+      "title": "Knowledge Services",
+      "url": "/knowledge-services/"
+    },
+    {
+      "title": "About",
+      "url": "/about/"
+    },
+    {
+      "title": "CV",
+      "url": "/cv/"
+    }
+  ],
+  "et": [
+    {
+      "title": "Tehtud tööd",
+      "url": "/et/work/"
+    },
+    {
+      "title": "Teadustöö",
+      "url": "/et/research/"
+    },
+    {
+      "title": "Publikatsioonid",
+      "url": "/et/publications/"
+    },
+    {
+      "title": "Õppetöö",
+      "url": "/et/teaching/"
+    },
+    {
+      "title": "Eksperditeenused",
+      "url": "/et/knowledge-services/"
+    },
+    {
+      "title": "Minust",
+      "url": "/et/about/"
+    },
+    {
+      "title": "CV",
+      "url": "/et/cv/"
+    }
+  ]
+}

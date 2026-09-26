@@ -1,0 +1,47 @@
+---
+layout: portfolio
+---
+<header class="case-heading">
+  <a class="back-link" href="{{ '/work/' | relative_url }}">← All work</a>
+  <p class="eyebrow">{{ page.kind }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lead">{{ page.description }}</p>
+</header>
+{% if page.image %}
+  <figure class="case-cover">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | escape }}" width="1280" height="720">
+    <figcaption>{{ page.image_credit }}</figcaption>
+  </figure>
+{% endif %}
+<div class="case-grid">
+  <article class="prose">{{ content }}</article>
+  <aside class="facts" aria-label="Project facts">
+    <h2>At a glance</h2>
+    <dl>
+      {% if page.role %}
+        <dt>Role</dt>
+        <dd>{{ page.role }}</dd>
+      {% endif %}
+      <dt>Context</dt>
+      <dd>{{ page.context }}</dd>
+      <dt>Domain</dt>
+      <dd>{{ page.kind }}</dd>
+      <dt>Status</dt>
+      <dd>{{ page.status }}</dd>
+      {% if page.technology %}
+        <dt>Technology</dt>
+        <dd>{{ page.technology }}</dd>
+      {% endif -%}
+      {%- if page.website %}
+        <dt>Website</dt>
+        <dd><a href="{{ page.website }}">Visit project ↗</a></dd>
+      {% endif %}
+    </dl>
+    <a href="{{ page.source | default: 'https://www.etis.ee/CV/Mart_Laanpere/eng/' }}">Source record ↗</a>
+  </aside>
+</div>
+<section class="case-next">
+  <p class="eyebrow">Continue exploring</p>
+  <a href="{{ '/research/' | relative_url }}">The research behind the work →</a
+  ><a href="{{ '/knowledge-services/' | relative_url }}">Knowledge services →</a>
+</section>

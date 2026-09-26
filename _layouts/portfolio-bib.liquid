@@ -1,0 +1,26 @@
+<article class="publication" data-category="{{ entry.topics }}">
+  <div class="publication-year">
+    {{ entry.year -}}
+    <span>{{ entry.label }}</span>
+  </div>
+  <div>
+    <p class="eyebrow">{{ entry.topics }}</p>
+    <h3>{{ entry.title }}</h3>
+    <p class="authors">{{ entry.author | replace: ' and ', '; ' | replace: 'Laanpere, Mart', '<strong>Laanpere, Mart</strong>' }}</p>
+    <p class="venue">
+      {% if entry.journal %}{{ entry.journal }}{% else %}{{ entry.booktitle }}{% endif -%}
+      {%- if entry.institution %}{{ entry.institution }}{% endif -%}
+      {%- if entry.volume %}, {{ entry.volume }}{% endif -%}
+      {%- if entry.pages %}, {{ entry.pages }}{% endif %}
+    </p>
+    <div class="publication-links">
+      {% if entry.doi -%}
+        <a href="https://doi.org/{{ entry.doi }}">DOI ↗</a>
+      {%- endif -%}
+      <a href="{{ entry.etis }}">ETIS ↗</a>
+      {%- if entry.pdf -%}
+        <a href="{{ entry.pdf }}">Open report ↗</a>
+      {%- endif %}
+    </div>
+  </div>
+</article>

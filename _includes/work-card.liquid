@@ -1,0 +1,23 @@
+<article class="work-card" data-category="{{ include.project.category }}">
+  <a
+    href="{{ include.project.url | relative_url }}"
+    class="work-image {% unless include.project.image %}type-art{% endunless %}"
+    aria-label="{{ include.project.title }} case study"
+  >
+    {% if include.project.image -%}
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" loading="lazy" width="1280" height="720">
+    {%- else -%}
+      <span class="artifact-label">{{ include.project.kind }}</span><span class="artifact-title">{{ include.project.title }}</span
+      ><span class="artifact-caption">{{ include.project.visual_note }}</span>
+    {%- endif -%}
+    <span class="card-arrow" aria-hidden="true">↗</span></a
+  >
+  <div class="card-content">
+    <p class="eyebrow">{{ include.project.kind }}</p>
+    <h3>
+      <a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a>
+    </h3>
+    <p>{{ include.project.description }}</p>
+    <span class="status">{{ include.project.status }}</span>
+  </div>
+</article>

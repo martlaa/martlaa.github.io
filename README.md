@@ -4,7 +4,7 @@ Personal academic and EdTech portfolio, built with al-folio 1.x and Jekyll Schol
 
 ## Preview
 
-Run `docker compose up -d`, then open http://localhost:8080/martlaanpere-site/.
+Run `docker compose up -d`, then open http://localhost:8080/.
 
 ## Content
 
@@ -18,7 +18,7 @@ Run `docker compose up -d`, then open http://localhost:8080/martlaanpere-site/.
 
 ## Deployment
 
-GitHub Actions builds and publishes the separate `martlaa/martlaanpere-site` prototype. Configure GitHub Pages to use Actions. Production baseurl is `/martlaanpere-site`; no custom domain is configured. The existing `martlaa.github.io` repository is not modified.
+GitHub Actions builds and publishes `martlaa/martlaa.github.io` at the account root. Production baseurl is empty; no custom domain is configured. The prototype repository remains separate.
 
 ## Upstream
 
